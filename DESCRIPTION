@@ -1,0 +1,14 @@
+Package: visMapeR
+Title: Repositorio con los objetos de datos que usaremos en las clases de Visualización de datos en el Máster de Análisis Político y Electoral de la Universidad Carlos III de Madrid. 
+Version: 0.0.0.9000
+Authors@R: 
+    person("Borja", "Andrino", , "bandrino@pa.uc3m.es", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Repositorio de datos para las clases de visualización.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Depends: 
+    R (>= 2.10)
+LazyData: true
