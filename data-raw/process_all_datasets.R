@@ -1,6 +1,7 @@
 
 library(tidyverse)
 library(usethis)
+library()
 
 galicia_20_pp_menos_20k <-
   read_csv("data-raw/elecciones_gallegas/historic_elecciones_galicia.csv") |>
@@ -25,3 +26,17 @@ diputados_congreso <- read_csv2("data-raw/congreso_diputados/DiputadosActivos__2
                                          `G. P. Junts` = "G. P. Junts per Catalunya"))
 
 usethis::use_data(diputados_congreso, overwrite = T)
+
+
+
+renta_munis_madrid <-
+  read_csv("data-raw/stats/renta_munis_madrid.csv")
+
+
+usethis::use_data(renta_munis_madrid, overwrite = T)
+
+
+renta_munis <-
+  read_csv("data-raw/stats/renta_munis.csv")
+
+usethis::use_data(renta_munis, overwrite = T)
