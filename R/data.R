@@ -20,9 +20,6 @@
 #' data(historic_totales_galicia)
 "historic_totales_galicia"
 
-
-
-
 #' Resultados del PP en las elecciones de 2020 en municipios de menos de 20.000 habitantes
 #'
 #' @format Un data frame con 350 filas y 9 columnas.
@@ -33,7 +30,6 @@
 #' @examples
 #' data(diputados_congreso)
 "diputados_congreso"
-
 
 #' Renta media por persona en los municipios de la Comunidad de Madrid
 #'
@@ -46,8 +42,6 @@
 #' data(renta_munis_madrid)
 "renta_munis_madrid"
 
-
-
 #' Renta media por persona en todos los municipios de España
 #'
 #' @format Un data frame con 8.136 filas y 5 columnas.
@@ -56,6 +50,29 @@
 #' @source Instituto Nacional de Estadística
 #'
 #' @examples
-#' data(renta_munis_madrid)
+#' data(renta_munis)
 "renta_munis"
+
+#' Contagios acumulados e incidencia a 14 días por 100.000 habitantes de la Comunidad de Madrid
+#'
+#' @format Un data frame con 753 filas y 4 columnas.
+#' \describe{
+#' }
+#' @source Ministerio de Sanidad y EL PAÍS
+#'
+#' @examples
+#' data(covid_madrid)
+"covid_madrid"
+
+
+#' Contagios acumulados e incidencia a 14 días por 100.000 habitantes en cada comunidad autónoma
+#'
+#' @format Un data frame con 14.308 filas y 4 columnas.
+#' \describe{
+#' }
+#' @source Ministerio de Sanidad y EL PAÍS
+#'
+#' @examples
+#' data(covid_ccaa)
+"covid_ccaa"
 

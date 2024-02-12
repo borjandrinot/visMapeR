@@ -19,6 +19,6 @@ renta_munis
 Renta media por persona en todos los municipios de España
 }
 \examples{
-data(renta_munis_madrid)
+data(renta_munis)
 }
 \keyword{datasets}

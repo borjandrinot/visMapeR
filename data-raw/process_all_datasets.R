@@ -11,7 +11,6 @@ galicia_20_pp_menos_20k <-
 
 usethis::use_data(galicia_20_pp_menos_20k, overwrite = T)
 
-
 diputados_congreso <- read_csv2("data-raw/congreso_diputados/DiputadosActivos__20240211050026.csv") |>
   mutate(GRUPOPARLAMENTARIO = str_replace_all(GRUPOPARLAMENTARIO, "Grupo Parlamentario", "G. P."),
          GRUPOPARLAMENTARIO = fct_recode(GRUPOPARLAMENTARIO,
@@ -43,4 +42,14 @@ historic_totales_galicia <-
 
 usethis::use_data(historic_totales_galicia, overwrite = T)
 
+
+covid_madrid <-
+  read_csv("data-raw/covid/covid_madrid.csv")
+
+usethis::use_data(covid_madrid, overwrite = T)
+
+covid_ccaa <-
+  read_csv("data-raw/covid/covid_ccaa.csv")
+
+usethis::use_data(covid_ccaa, overwrite = T)
 
