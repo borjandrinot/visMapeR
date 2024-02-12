@@ -27,16 +27,20 @@ diputados_congreso <- read_csv2("data-raw/congreso_diputados/DiputadosActivos__2
 
 usethis::use_data(diputados_congreso, overwrite = T)
 
-
-
 renta_munis_madrid <-
   read_csv("data-raw/stats/renta_munis_madrid.csv")
 
-
 usethis::use_data(renta_munis_madrid, overwrite = T)
-
 
 renta_munis <-
   read_csv("data-raw/stats/renta_munis.csv")
 
 usethis::use_data(renta_munis, overwrite = T)
+
+
+historic_totales_galicia <-
+  read_csv("data-raw/elecciones_gallegas/historic_totales_galicia.csv")
+
+usethis::use_data(historic_totales_galicia, overwrite = T)
+
+
