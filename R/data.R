@@ -101,3 +101,14 @@
 #' data(gasto_renta_munis)
 "gasto_renta_munis"
 
+#' Estadísticas de 9 modelos de coche diferentes
+#'
+#' @format Un data frame con 99 filas y 4 columnas.
+#' \describe{
+#' }
+#' @source Elaboración propia
+#'
+#' @examples
+#' data(mtcars_to_plot)
+"mtcars_to_plot"
+

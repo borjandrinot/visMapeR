@@ -66,3 +66,16 @@ gasto_renta_munis <-
 
 usethis::use_data(gasto_renta_munis, overwrite = T)
 
+mtcars_to_plot <-
+  mtcars %>%
+  rownames_to_column(var = "car_model") %>%
+  slice_sample(n = 9) %>%
+  pivot_longer(cols = -car_model) %>%
+  group_by(name) %>%
+  mutate(value_norm = value / max(value))
+
+usethis::use_data(mtcars_to_plot, overwrite = T)
+
+
+
+
