@@ -3,6 +3,13 @@ library(tidyverse)
 library(usethis)
 library()
 
+galicia_20_munis <-
+  read_csv("data-raw/elecciones_gallegas/historic_elecciones_galicia.csv") |>
+  filter(election == 2020)
+
+usethis::use_data(galicia_20_munis, overwrite = T)
+
+
 galicia_20_pp_menos_20k <-
   read_csv("data-raw/elecciones_gallegas/historic_elecciones_galicia.csv") |>
   filter(election == 2020,

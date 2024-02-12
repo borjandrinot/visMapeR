@@ -1,3 +1,15 @@
+#' Resultados por municipio de las elecciones de 2020 en Galicia
+#'
+#' @format Un data frame con 1.868 filas y 13 columnas.
+#' \describe{
+#' }
+#' @source Instituto Galego de Estadística
+#'
+#' @examples
+#' data(galicia_20_munis)
+"galicia_20_munis"
+
+
 #' Resultados del PP en las elecciones de 2020 en municipios de menos de 20.000 habitantes
 #'
 #' @format Un data frame con 296 filas y 13 columnas.
