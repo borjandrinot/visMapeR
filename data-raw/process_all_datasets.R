@@ -53,3 +53,9 @@ covid_ccaa <-
 
 usethis::use_data(covid_ccaa, overwrite = T)
 
+
+gasto_renta_munis <-
+  read_csv("data-raw/stats/gasto_renta_munis.csv")
+
+usethis::use_data(gasto_renta_munis, overwrite = T)
+

@@ -1,0 +1,410 @@
+mun,prov,pob_data,tipo,renta,gasto_total_hab
+Albacete,Albacete,173359.25,"(5e+04,2e+05]",32861,819.88
+Almansa,Albacete,24463.75,"(1e+04,5e+04]",27375,848.43
+Hellín,Albacete,30300.25,"(1e+04,5e+04]",24660,628.28
+Villarrobledo,Albacete,25129.75,"(1e+04,5e+04]",27629,842.06
+Alcoy/Alcoi,Alicante/Alacant,59113.25,"(5e+04,2e+05]",27794,921.81
+l' Alfàs del Pi,Alicante/Alacant,20274,"(1e+04,5e+04]",24799,1006.35
+Alicante/Alacant,Alicante/Alacant,335312.5,"(2e+05,Inf]",29745,710.99
+Almoradí,Alicante/Alacant,20989.25,"(1e+04,5e+04]",23947,635.22
+Altea,Alicante/Alacant,22375,"(1e+04,5e+04]",26812,1101.5
+Aspe,Alicante/Alacant,20785.75,"(1e+04,5e+04]",25067,949.29
+Benidorm,Alicante/Alacant,68961.75,"(5e+04,2e+05]",22939,1271.78
+Calp,Alicante/Alacant,22803.5,"(1e+04,5e+04]",23413,1366.51
+el Campello,Alicante/Alacant,28546.25,"(1e+04,5e+04]",29013,1018.46
+Crevillent,Alicante/Alacant,29290.5,"(1e+04,5e+04]",24422,773.86
+Dénia,Alicante/Alacant,42419.75,"(1e+04,5e+04]",27038,1265.02
+Elche/Elx,Alicante/Alacant,233028,"(2e+05,Inf]",26758,734.99
+Elda,Alicante/Alacant,52596.5,"(5e+04,2e+05]",23708,731.69
+Ibi,Alicante/Alacant,23485.33,"(1e+04,5e+04]",29220,813.29
+Jávea/Xàbia,Alicante/Alacant,27706.75,"(1e+04,5e+04]",24863,1109.06
+Mutxamel,Alicante/Alacant,25421.25,"(1e+04,5e+04]",32242,744.67
+Novelda,Alicante/Alacant,25682,"(1e+04,5e+04]",26831,724.3
+Orihuela,Alicante/Alacant,77909.25,"(5e+04,2e+05]",24339,944.31
+Petrer,Alicante/Alacant,34251.25,"(1e+04,5e+04]",25003,729.49
+Sant Joan d'Alacant,Alicante/Alacant,24040.75,"(1e+04,5e+04]",32528,818.95
+Santa Pola,Alicante/Alacant,32875.5,"(1e+04,5e+04]",24315,916.78
+San Vicente del Raspeig/Sant Vicent del Raspeig,Alicante/Alacant,58515,"(5e+04,2e+05]",30122,650.54
+Torrevieja,Alicante/Alacant,83361.25,"(5e+04,2e+05]",20026,913.47
+"Villajoyosa/Vila Joiosa, la",Alicante/Alacant,34631.25,"(1e+04,5e+04]",26041,1000.26
+Villena,Alicante/Alacant,34031.75,"(1e+04,5e+04]",26118,681.46
+Pilar de la Horadada,Alicante/Alacant,22066.75,"(1e+04,5e+04]",25753,1389.81
+Adra,Almería,25230,"(1e+04,5e+04]",23822,801.23
+Almería,Almería,199364.75,"(5e+04,2e+05]",30170,867.36
+Níjar,Almería,30977.25,"(1e+04,5e+04]",22844,834.81
+Roquetas de Mar,Almería,97220.75,"(5e+04,2e+05]",26720,806.28
+Vícar,Almería,26432.5,"(1e+04,5e+04]",24290,795.29
+El Ejido,Almería,84016.75,"(5e+04,2e+05]",25471,859.98
+Ávila,Ávila,57929.75,"(5e+04,2e+05]",31066,825.99
+Almendralejo,Badajoz,33661.5,"(1e+04,5e+04]",23908,627.69
+Badajoz,Badajoz,150706.5,"(5e+04,2e+05]",30634,729.33
+Don Benito,Badajoz,37180,"(1e+04,5e+04]",27166,781.81
+Mérida,Badajoz,59414.75,"(5e+04,2e+05]",28545,805.1
+Villanueva de la Serena,Badajoz,25753.75,"(1e+04,5e+04]",25746,907.12
+Alcúdia,Illes Balears,20376,"(1e+04,5e+04]",28344,1385.88
+Calvià,Illes Balears,50792.25,"(5e+04,2e+05]",32380,1892.01
+Ciutadella de Menorca,Illes Balears,30072.25,"(1e+04,5e+04]",31019,1157.56
+Eivissa,Illes Balears,50320.25,"(5e+04,2e+05]",37684,1131.74
+Inca,Illes Balears,33215.25,"(1e+04,5e+04]",30775,899.07
+Llucmajor,Illes Balears,37312,"(1e+04,5e+04]",34252,970.51
+Maó,Illes Balears,29200.5,"(1e+04,5e+04]",34491,1165.71
+Manacor,Illes Balears,43943.75,"(1e+04,5e+04]",31156,958.79
+Marratxí,Illes Balears,37499.75,"(1e+04,5e+04]",44052,753.82
+Palma,Illes Balears,416919.75,"(2e+05,Inf]",36510,935.38
+Sant Antoni de Portmany,Illes Balears,26372.67,"(1e+04,5e+04]",33410,980.01
+Sant Josep de sa Talaia,Illes Balears,27485,"(1e+04,5e+04]",35215,1301.92
+Santa Eulària des Riu,Illes Balears,38467,"(1e+04,5e+04]",34394,1172.31
+Badalona,Barcelona,221088.25,"(2e+05,Inf]",33689,727.62
+Barcelona,Barcelona,1639504.75,"(2e+05,Inf]",40424,1666.14
+Castellar del Vallès,Barcelona,24342.5,"(1e+04,5e+04]",41160,965.52
+Castelldefels,Barcelona,67016.25,"(5e+04,2e+05]",43718,1086.53
+Cornellà de Llobregat,Barcelona,88750.25,"(5e+04,2e+05]",33806,1008.65
+Esparreguera,Barcelona,22239,"(1e+04,5e+04]",37074,1021.85
+Esplugues de Llobregat,Barcelona,46740.5,"(1e+04,5e+04]",41369,959.96
+Les Franqueses del Vallès,Barcelona,20143.75,"(1e+04,5e+04]",37960,1138.62
+Gavà,Barcelona,46866,"(1e+04,5e+04]",39233,1067.19
+Granollers,Barcelona,61787.5,"(5e+04,2e+05]",37867,1270.28
+L' Hospitalet de Llobregat,Barcelona,265007.5,"(2e+05,Inf]",31358,882
+Igualada,Barcelona,40281,"(1e+04,5e+04]",35232,1308.61
+Manlleu,Barcelona,20620.75,"(1e+04,5e+04]",35700,978.21
+Manresa,Barcelona,77600.25,"(5e+04,2e+05]",33705,926.37
+Martorell,Barcelona,28369.5,"(1e+04,5e+04]",36806,1328.85
+El Masnou,Barcelona,23633.5,"(1e+04,5e+04]",43266,1056.44
+Mataró,Barcelona,128508.5,"(5e+04,2e+05]",33263,989.01
+Molins de Rei,Barcelona,25899.75,"(1e+04,5e+04]",41845,1225.28
+Mollet del Vallès,Barcelona,51300.5,"(5e+04,2e+05]",35187,1062.99
+Montcada i Reixac,Barcelona,36358.75,"(1e+04,5e+04]",34324,1097.43
+Olesa de Montserrat,Barcelona,23989.75,"(1e+04,5e+04]",36656,973.06
+Pineda de Mar,Barcelona,27472.25,"(1e+04,5e+04]",28372,1083.21
+El Prat de Llobregat,Barcelona,64912,"(5e+04,2e+05]",35752,1553.65
+Premià de Mar,Barcelona,28311,"(1e+04,5e+04]",37354,880.08
+Ripollet,Barcelona,38730.33,"(1e+04,5e+04]",33645,854.65
+Rubí,Barcelona,77756.75,"(5e+04,2e+05]",35426,1007.42
+Sabadell,Barcelona,214525.5,"(2e+05,Inf]",35249,927.57
+Sant Adrià de Besòs,Barcelona,37124,"(1e+04,5e+04]",31090,959.21
+Sant Andreu de la Barca,Barcelona,27408.5,"(1e+04,5e+04]",36436,862.4
+Sant Boi de Llobregat,Barcelona,83691,"(5e+04,2e+05]",35370,1020.84
+Sant Cugat del Vallès,Barcelona,92164.75,"(5e+04,2e+05]",64848,1323.08
+Sant Feliu de Llobregat,Barcelona,45066,"(1e+04,5e+04]",40464,969.65
+Sant Joan Despí,Barcelona,34151,"(1e+04,5e+04]",43031,1381.99
+Vilassar de Mar,Barcelona,20893,"(1e+04,5e+04]",45967,976.8
+Sant Pere de Ribes,Barcelona,31003.25,"(1e+04,5e+04]",35819,1074.63
+Sant Quirze del Vallès,Barcelona,20175.5,"(1e+04,5e+04]",54275,1108.33
+Santa Coloma de Gramenet,Barcelona,119442,"(5e+04,2e+05]",29891,951.07
+Barberà del Vallès,Barcelona,33070,"(1e+04,5e+04]",37693,1215.15
+Santa Perpètua de Mogoda,Barcelona,25845.67,"(1e+04,5e+04]",37403,1377.97
+Sant Vicenç dels Horts,Barcelona,28100.25,"(1e+04,5e+04]",36425,1120.18
+Cerdanyola del Vallès,Barcelona,57553.75,"(5e+04,2e+05]",41078,1041.99
+Sitges,Barcelona,29511.5,"(1e+04,5e+04]",42710,1726.52
+Terrassa,Barcelona,221432.25,"(2e+05,Inf]",35192,897.22
+Vic,Barcelona,46550.75,"(1e+04,5e+04]",37336,1059.48
+Viladecans,Barcelona,66670.75,"(5e+04,2e+05]",37205,1033.38
+Vilafranca del Penedès,Barcelona,39981,"(1e+04,5e+04]",34405,1121.07
+Vilanova i la Geltrú,Barcelona,67137.75,"(5e+04,2e+05]",35717,1146.82
+Aranda de Duero,Burgos,32912.5,"(1e+04,5e+04]",30987,890.48
+Burgos,Burgos,175552.75,"(5e+04,2e+05]",34190,926.99
+Miranda de Ebro,Burgos,35571.75,"(1e+04,5e+04]",31079,969.48
+Cáceres,Cáceres,95966.75,"(5e+04,2e+05]",31455,723.48
+Plasencia,Cáceres,39868,"(1e+04,5e+04]",27301,777.09
+Algeciras,Cádiz,122357.75,"(5e+04,2e+05]",29708,819.56
+Arcos de la Frontera,Cádiz,30860,"(1e+04,5e+04]",22569,948.11
+Barbate,Cádiz,22622.67,"(1e+04,5e+04]",21957,1344.38
+Los Barrios,Cádiz,23728.75,"(1e+04,5e+04]",32057,1411.99
+Cádiz,Cádiz,115672.25,"(5e+04,2e+05]",32464,1179.45
+Conil de la Frontera,Cádiz,22577,"(1e+04,5e+04]",24385,1141.47
+Chiclana de la Frontera,Cádiz,84944,"(5e+04,2e+05]",26087,753.51
+Jerez de la Frontera,Cádiz,212883.5,"(2e+05,Inf]",27078,945.88
+La Línea de la Concepción,Cádiz,63270.5,"(5e+04,2e+05]",25181,723.95
+El Puerto de Santa María,Cádiz,88364,"(5e+04,2e+05]",30082,928.52
+Puerto Real,Cádiz,41687,"(1e+04,5e+04]",28982,771.57
+Rota,Cádiz,29304,"(1e+04,5e+04]",27825,1365.84
+San Fernando,Cádiz,95005.25,"(5e+04,2e+05]",29492,688.38
+Sanlúcar de Barrameda,Cádiz,68858.25,"(5e+04,2e+05]",22965,805.9
+San Roque,Cádiz,31359.75,"(1e+04,5e+04]",29946,1514.33
+Almassora,Castellón/Castelló,26430.25,"(1e+04,5e+04]",28727,880.31
+Benicarló,Castellón/Castelló,27169.25,"(1e+04,5e+04]",27639,955.75
+Borriana/Burriana,Castellón/Castelló,34795.5,"(1e+04,5e+04]",29310,823
+Castelló de la Plana,Castellón/Castelló,172367.25,"(5e+04,2e+05]",31914,947.29
+Onda,Castellón/Castelló,24907,"(1e+04,5e+04]",30293,1088.44
+la Vall d'Uixó,Castellón/Castelló,31610.5,"(1e+04,5e+04]",28615,900.46
+Vila-real,Castellón/Castelló,50973.25,"(5e+04,2e+05]",31767,975.85
+Vinaròs,Castellón/Castelló,28703.75,"(1e+04,5e+04]",27920,907.92
+Alcázar de San Juan,Ciudad Real,30644,"(1e+04,5e+04]",30556,1008.04
+Ciudad Real,Ciudad Real,75024.25,"(5e+04,2e+05]",34312,921.69
+Puertollano,Ciudad Real,46889.75,"(1e+04,5e+04]",27875,790.14
+Tomelloso,Ciudad Real,36029,"(1e+04,5e+04]",24801,802.42
+Valdepeñas,Ciudad Real,30189.25,"(1e+04,5e+04]",27123,927.79
+Cabra,Córdoba,20337.5,"(1e+04,5e+04]",25185,952.98
+Córdoba,Córdoba,324879.75,"(2e+05,Inf]",30999,773.11
+Lucena,Córdoba,42645,"(1e+04,5e+04]",24181,1006.69
+Montilla,Córdoba,22815.5,"(1e+04,5e+04]",25703,884.64
+Palma del Río,Córdoba,21015.25,"(1e+04,5e+04]",24031,1107.95
+Priego de Córdoba,Córdoba,22402.75,"(1e+04,5e+04]",21636,806.96
+Puente Genil,Córdoba,29999.75,"(1e+04,5e+04]",24280,866.79
+Ames,A Coruña,31792,"(1e+04,5e+04]",32463,758.37
+Arteixo,A Coruña,32452.75,"(1e+04,5e+04]",29460,1121.88
+Cambre,A Coruña,24615.25,"(1e+04,5e+04]",32249,660.31
+Carballo,A Coruña,31363.25,"(1e+04,5e+04]",28139,845.43
+A Coruña,A Coruña,245908.25,"(2e+05,Inf]",34376,925.52
+Culleredo,A Coruña,30516.5,"(1e+04,5e+04]",31794,667.89
+Ferrol,A Coruña,65802.25,"(5e+04,2e+05]",28753,753.69
+Narón,A Coruña,39041,"(1e+04,5e+04]",28634,816.78
+Oleiros,A Coruña,36272.5,"(1e+04,5e+04]",43578,791.45
+Ribeira,A Coruña,26910,"(1e+04,5e+04]",29715,812.03
+Santiago de Compostela,A Coruña,97342.75,"(5e+04,2e+05]",36213,994.04
+Cuenca,Cuenca,54549.25,"(5e+04,2e+05]",32319,808.2
+Blanes,Girona,39501.5,"(1e+04,5e+04]",29329,1206.68
+Figueres,Girona,46977.33,"(1e+04,5e+04]",29428,1130.14
+Girona,Girona,101854.75,"(5e+04,2e+05]",39210,1143.22
+Lloret de Mar,Girona,38303.5,"(1e+04,5e+04]",25326,1741.23
+Olot,Girona,35484.75,"(1e+04,5e+04]",35663,995.39
+Palafrugell,Girona,23031,"(1e+04,5e+04]",30279,1644.42
+Salt,Girona,31588,"(1e+04,5e+04]",30457,808.15
+Sant Feliu de Guíxols,Girona,22014,"(1e+04,5e+04]",30066,1303.72
+Almuñécar,Granada,26177,"(1e+04,5e+04]",22776,1184.62
+Armilla,Granada,24217.5,"(1e+04,5e+04]",28400,717.97
+Baza,Granada,20410.5,"(1e+04,5e+04]",26188,1012.58
+Granada,Granada,232523.25,"(2e+05,Inf]",31402,1091.63
+Loja,Granada,20392.67,"(1e+04,5e+04]",22726,1072.46
+Maracena,Granada,22206.75,"(1e+04,5e+04]",26631,897.64
+Motril,Granada,58904.25,"(5e+04,2e+05]",26539,901.83
+Las Gabias,Granada,21353,"(1e+04,5e+04]",24535,631.1
+Azuqueca de Henares,Guadalajara,35084.25,"(1e+04,5e+04]",33628,815.88
+Guadalajara,Guadalajara,86332.25,"(5e+04,2e+05]",34881,756.16
+Eibar,Gipuzkoa,27541,"(1e+04,5e+04]",36896,1386.06
+Hernani,Gipuzkoa,20344,"(1e+04,5e+04]",34599,1623.33
+Irun,Gipuzkoa,61983,"(5e+04,2e+05]",34461,1163.71
+Arrasate/Mondragón,Gipuzkoa,21990,"(1e+04,5e+04]",38382,1572.52
+Errenteria,Gipuzkoa,39396.25,"(1e+04,5e+04]",32759,1338.81
+Donostia/San Sebastián,Gipuzkoa,187605.5,"(5e+04,2e+05]",43696,1753.6
+Zarautz,Gipuzkoa,23294.25,"(1e+04,5e+04]",42287,1496.38
+Aljaraque,Huelva,21373.5,"(1e+04,5e+04]",37633,687.24
+Almonte,Huelva,24322,"(1e+04,5e+04]",23800,1643.44
+Ayamonte,Huelva,21110.75,"(1e+04,5e+04]",24271,1054.61
+Cartaya,Huelva,20198.5,"(1e+04,5e+04]",26352,860.12
+Huelva,Huelva,143574,"(5e+04,2e+05]",29158,787.15
+Isla Cristina,Huelva,21312.5,"(1e+04,5e+04]",23592,880.95
+Lepe,Huelva,28293,"(1e+04,5e+04]",24976,1079.24
+Moguer,Huelva,21928.75,"(1e+04,5e+04]",26028,961.04
+Huesca,Huesca,53245,"(5e+04,2e+05]",33327,887.05
+Alcalá la Real,Jaén,21661.25,"(1e+04,5e+04]",24827,1003.93
+Andújar,Jaén,36683.25,"(1e+04,5e+04]",23865,956.04
+Jaén,Jaén,112786.25,"(5e+04,2e+05]",32544,951.63
+Linares,Jaén,57275.75,"(5e+04,2e+05]",27675,802.61
+Martos,Jaén,24259,"(1e+04,5e+04]",28206,953.84
+Úbeda,Jaén,34371,"(1e+04,5e+04]",28148,951.72
+León,León,123788.5,"(5e+04,2e+05]",32074,872.03
+Ponferrada,León,64542.25,"(5e+04,2e+05]",28850,727.83
+San Andrés del Rabanedo,León,30536,"(1e+04,5e+04]",28762,583.25
+Lleida,Lleida,139323.75,"(5e+04,2e+05]",34151,1090.5
+Calahorra,La Rioja,24313.25,"(1e+04,5e+04]",30471,767.89
+Logroño,La Rioja,151385.5,"(5e+04,2e+05]",33246,975.2
+Lugo,Lugo,98108.25,"(5e+04,2e+05]",30462,838.14
+Alcalá de Henares,Madrid,195736,"(5e+04,2e+05]",36247,824.5
+Alcobendas,Madrid,117020.75,"(5e+04,2e+05]",56448,1244.71
+Alcorcón,Madrid,170804.25,"(5e+04,2e+05]",35844,728.22
+Algete,Madrid,20674.25,"(1e+04,5e+04]",50456,820.96
+Aranjuez,Madrid,59702.25,"(5e+04,2e+05]",34544,777.78
+Arganda del Rey,Madrid,55751.75,"(5e+04,2e+05]",33726,939.34
+Arroyomolinos,Madrid,33687,"(1e+04,5e+04]",45430,763.6
+Boadilla del Monte,Madrid,55745.5,"(5e+04,2e+05]",74262,1258.77
+Ciempozuelos,Madrid,24716.5,"(1e+04,5e+04]",31396,535.46
+Colmenar Viejo,Madrid,51167,"(5e+04,2e+05]",44384,747.32
+Collado Villalba,Madrid,63739,"(5e+04,2e+05]",35353,710.12
+Coslada,Madrid,81546.25,"(5e+04,2e+05]",36592,749.36
+Fuenlabrada,Madrid,193508.25,"(5e+04,2e+05]",32807,791.87
+Galapagar,Madrid,34082.5,"(1e+04,5e+04]",41920,669.78
+Getafe,Madrid,183099,"(5e+04,2e+05]",35693,801.35
+Leganés,Madrid,189290.5,"(5e+04,2e+05]",33176,687.46
+Madrid,Madrid,3282399.5,"(2e+05,Inf]",43003,1355.49
+Majadahonda,Madrid,71950,"(5e+04,2e+05]",65059,896.81
+Mejorada del Campo,Madrid,23472.75,"(1e+04,5e+04]",32539,803.39
+Móstoles,Madrid,209056.75,"(2e+05,Inf]",33475,705.98
+Navalcarnero,Madrid,29570.75,"(1e+04,5e+04]",36243,965.89
+Paracuellos de Jarama,Madrid,25557.67,"(1e+04,5e+04]",53671,778.83
+Parla,Madrid,130887.75,"(5e+04,2e+05]",29788,644.11
+Pinto,Madrid,52732.25,"(5e+04,2e+05]",36498,744.84
+Pozuelo de Alarcón,Madrid,86723.25,"(5e+04,2e+05]",82973,1226.17
+Rivas-Vaciamadrid,Madrid,89485.25,"(5e+04,2e+05]",46289,907.79
+Las Rozas de Madrid,Madrid,95584.75,"(5e+04,2e+05]",63629,1021.42
+San Fernando de Henares,Madrid,39372.5,"(1e+04,5e+04]",35065,1235.98
+San Sebastián de los Reyes,Madrid,89796.5,"(5e+04,2e+05]",44359,842.6
+Torrejón de Ardoz,Madrid,131682.25,"(5e+04,2e+05]",35052,803.89
+Torrelodones,Madrid,23775.5,"(1e+04,5e+04]",67763,1078.89
+Valdemoro,Madrid,76396.25,"(5e+04,2e+05]",38246,604.94
+Villanueva de la Cañada,Madrid,21785,"(1e+04,5e+04]",59240,1115.89
+Villaviciosa de Odón,Madrid,27902.25,"(1e+04,5e+04]",56991,909.94
+Tres Cantos,Madrid,47887.25,"(1e+04,5e+04]",57055,998.68
+Alhaurín de la Torre,Málaga,40823.5,"(1e+04,5e+04]",34174,1004.33
+Alhaurín el Grande,Málaga,25070.25,"(1e+04,5e+04]",24329,876.15
+Antequera,Málaga,41264.75,"(1e+04,5e+04]",28104,924.39
+Benalmádena,Málaga,68805.5,"(5e+04,2e+05]",26000,1081.25
+Cártama,Málaga,26547.75,"(1e+04,5e+04]",26280,744.28
+Coín,Málaga,22477.75,"(1e+04,5e+04]",24855,902.23
+Estepona,Málaga,69362.75,"(5e+04,2e+05]",26162,1449.65
+Fuengirola,Málaga,80281.75,"(5e+04,2e+05]",23774,1020.98
+Málaga,Málaga,575386.25,"(2e+05,Inf]",30219,1010.19
+Marbella,Málaga,145110,"(5e+04,2e+05]",27930,1780.35
+Mijas,Málaga,83878.25,"(5e+04,2e+05]",23888,1178.97
+Nerja,Málaga,21078.5,"(1e+04,5e+04]",23158,1236.73
+Rincón de la Victoria,Málaga,47957.5,"(1e+04,5e+04]",33519,876.16
+Ronda,Málaga,33802.25,"(1e+04,5e+04]",26824,883.21
+Torremolinos,Málaga,68536.25,"(5e+04,2e+05]",25810,1343.24
+Águilas,Murcia,35502.5,"(1e+04,5e+04]",26394,796.7
+Alcantarilla,Murcia,42143.5,"(1e+04,5e+04]",28292,588.25
+Alhama de Murcia,Murcia,22033.5,"(1e+04,5e+04]",28993,929.53
+Caravaca de la Cruz,Murcia,25697.25,"(1e+04,5e+04]",27528,752.2
+Cartagena,Murcia,215304.5,"(2e+05,Inf]",31459,891.66
+Cieza,Murcia,35115.25,"(1e+04,5e+04]",28636,650.79
+Jumilla,Murcia,25843.75,"(1e+04,5e+04]",26745,736.65
+Lorca,Murcia,94809,"(5e+04,2e+05]",30468,749.83
+Mazarrón,Murcia,32598.5,"(1e+04,5e+04]",23511,853.59
+Molina de Segura,Murcia,72361.75,"(5e+04,2e+05]",33782,822.39
+Murcia,Murcia,455048,"(2e+05,Inf]",33461,804.38
+San Javier,Murcia,32792,"(1e+04,5e+04]",28835,1327.02
+San Pedro del Pinatar,Murcia,25723.75,"(1e+04,5e+04]",26467,956.9
+Torre-Pacheco,Murcia,36263.25,"(1e+04,5e+04]",27974,836.41
+Las Torres de Cotillas,Murcia,21609,"(1e+04,5e+04]",29988,755.64
+Totana,Murcia,32123,"(1e+04,5e+04]",28645,855.2
+La Unión,Murcia,20301.5,"(1e+04,5e+04]",27082,552.65
+Yecla,Murcia,34645.75,"(1e+04,5e+04]",26416,731.5
+Valle de Egüés/Eguesibar,Navarra,21219,"(1e+04,5e+04]",41219,631.48
+Pamplona/Iruña,Navarra,201936,"(2e+05,Inf]",36227,1018.36
+Tudela,Navarra,36475.25,"(1e+04,5e+04]",32778,1144.95
+Barañáin/Barañain,Navarra,20167,"(1e+04,5e+04]",39873,749.27
+Ourense,Ourense,105244.25,"(5e+04,2e+05]",30118,853.17
+Avilés,Asturias,77890.5,"(5e+04,2e+05]",29995,843.11
+Castrillón,Asturias,22353,"(1e+04,5e+04]",34615,893.76
+Gijón,Asturias,271059,"(2e+05,Inf]",31045,801.71
+Langreo,Asturias,39317.5,"(1e+04,5e+04]",27663,740.28
+Mieres,Asturias,37737.5,"(1e+04,5e+04]",29103,824.55
+Oviedo,Asturias,219292,"(2e+05,Inf]",33416,859.8
+Siero,Asturias,51611.5,"(5e+04,2e+05]",32455,815.36
+Palencia,Palencia,78068.75,"(5e+04,2e+05]",31399,851.83
+Agüimes,Las Palmas,31697.5,"(1e+04,5e+04]",29869,990.37
+Arrecife,Las Palmas,63370.25,"(5e+04,2e+05]",28133,725.51
+Arucas,Las Palmas,38174.5,"(1e+04,5e+04]",31940,867.77
+Gáldar,Las Palmas,24319,"(1e+04,5e+04]",29793,1260.25
+Ingenio,Las Palmas,31433.25,"(1e+04,5e+04]",29087,926.46
+Mogán,Las Palmas,20197,"(1e+04,5e+04]",24703,2339.74
+La Oliva,Las Palmas,26866.5,"(1e+04,5e+04]",23693,1370.58
+Pájara,Las Palmas,20998.75,"(1e+04,5e+04]",24753,1332.1
+Las Palmas de Gran Canaria,Las Palmas,379585,"(2e+05,Inf]",33426,880.15
+Puerto del Rosario,Las Palmas,40932.25,"(1e+04,5e+04]",29999,809.95
+San Bartolomé de Tirajana,Las Palmas,53373.5,"(5e+04,2e+05]",26042,1326.97
+Santa Lucía de Tirajana,Las Palmas,73341.5,"(5e+04,2e+05]",25982,809.16
+Teguise,Las Palmas,22552.75,"(1e+04,5e+04]",34771,1068.06
+Telde,Las Palmas,102657.75,"(5e+04,2e+05]",29121,783.96
+Tías,Las Palmas,20401.25,"(1e+04,5e+04]",27397,1366.9
+Cangas,Pontevedra,26579.75,"(1e+04,5e+04]",29826,572.79
+A Estrada,Pontevedra,20438,"(1e+04,5e+04]",28665,757.12
+Lalín,Pontevedra,20173.33,"(1e+04,5e+04]",27088,816.32
+Marín,Pontevedra,24292.75,"(1e+04,5e+04]",27671,672.43
+Pontevedra,Pontevedra,83051.25,"(5e+04,2e+05]",31982,846.86
+Ponteareas,Pontevedra,22903.25,"(1e+04,5e+04]",24276,765.67
+Redondela,Pontevedra,29211.25,"(1e+04,5e+04]",33086,635.83
+Vigo,Pontevedra,294883.75,"(2e+05,Inf]",33927,828.34
+Vilagarcía de Arousa,Pontevedra,37521.25,"(1e+04,5e+04]",28143,754.9
+Salamanca,Salamanca,144075,"(5e+04,2e+05]",29675,1021.69
+Adeje,Santa Cruz de Tenerife,48228,"(1e+04,5e+04]",23544,1948.01
+Arona,Santa Cruz de Tenerife,81501,"(5e+04,2e+05]",22327,1185.52
+Candelaria,Santa Cruz de Tenerife,28118,"(1e+04,5e+04]",32007,836.66
+Granadilla de Abona,Santa Cruz de Tenerife,50400.75,"(5e+04,2e+05]",25854,673.24
+Guía de Isora,Santa Cruz de Tenerife,21495.5,"(1e+04,5e+04]",25189,866.12
+Güímar,Santa Cruz de Tenerife,20397.75,"(1e+04,5e+04]",28104,862.37
+Icod de los Vinos,Santa Cruz de Tenerife,23104.33,"(1e+04,5e+04]",24708,760.9
+San Cristóbal de La Laguna,Santa Cruz de Tenerife,157493.25,"(5e+04,2e+05]",31013,817.64
+Los Llanos de Aridane,Santa Cruz de Tenerife,20511.5,"(1e+04,5e+04]",27427,1107.95
+La Orotava,Santa Cruz de Tenerife,42067,"(1e+04,5e+04]",28373,931.3
+Puerto de la Cruz,Santa Cruz de Tenerife,30405.5,"(1e+04,5e+04]",26042,1219.77
+Los Realejos,Santa Cruz de Tenerife,36589.5,"(1e+04,5e+04]",26747,842.86
+San Miguel de Abona,Santa Cruz de Tenerife,21012.75,"(1e+04,5e+04]",24535,784.09
+Santa Cruz de Tenerife,Santa Cruz de Tenerife,207481.25,"(2e+05,Inf]",32482,1087.15
+Tacoronte,Santa Cruz de Tenerife,24160.5,"(1e+04,5e+04]",31449,595.51
+Camargo,Cantabria,30335,"(1e+04,5e+04]",33549,871.94
+Castro-Urdiales,Cantabria,32322.75,"(1e+04,5e+04]",31397,994.76
+Piélagos,Cantabria,25637,"(1e+04,5e+04]",36232,701.26
+Santander,Cantabria,172544.75,"(5e+04,2e+05]",33836,1022.2
+Torrelavega,Cantabria,51503.75,"(5e+04,2e+05]",28127,999.47
+Segovia,Segovia,51668,"(5e+04,2e+05]",33086,1124.71
+Alcalá de Guadaíra,Sevilla,75403.5,"(5e+04,2e+05]",28588,801.26
+Bormujos,Sevilla,22126.5,"(1e+04,5e+04]",35716,710.54
+Camas,Sevilla,27505.5,"(1e+04,5e+04]",25141,705.36
+Carmona,Sevilla,28777,"(1e+04,5e+04]",25980,914.61
+Coria del Río,Sevilla,30779,"(1e+04,5e+04]",24291,694.06
+Dos Hermanas,Sevilla,134609,"(5e+04,2e+05]",31612,735.69
+Écija,Sevilla,39871.5,"(1e+04,5e+04]",24561,871.35
+Lebrija,Sevilla,27524,"(1e+04,5e+04]",23489,888.14
+Mairena del Alcor,Sevilla,23713.67,"(1e+04,5e+04]",29054,762.71
+Mairena del Aljarafe,Sevilla,46357.25,"(1e+04,5e+04]",36618,734.52
+Morón de la Frontera,Sevilla,27671.5,"(1e+04,5e+04]",25576,1020.89
+Los Palacios y Villafranca,Sevilla,38456.5,"(1e+04,5e+04]",24006,780.38
+La Rinconada,Sevilla,38825,"(1e+04,5e+04]",27163,899.39
+San Juan de Aznalfarache,Sevilla,21618.25,"(1e+04,5e+04]",24365,755.54
+Sevilla,Sevilla,688233,"(2e+05,Inf]",32289,1064.58
+Tomares,Sevilla,25351,"(1e+04,5e+04]",40362,913.74
+Utrera,Sevilla,51363,"(5e+04,2e+05]",25799,858.97
+Soria,Soria,39506.5,"(1e+04,5e+04]",35047,1022.96
+Amposta,Tarragona,20944,"(1e+04,5e+04]",28310,1164.18
+Calafell,Tarragona,27011.5,"(1e+04,5e+04]",29398,1599.29
+Cambrils,Tarragona,34264.5,"(1e+04,5e+04]",32074,1165.58
+Reus,Tarragona,105025.5,"(5e+04,2e+05]",32330,1081.44
+Tarragona,Tarragona,134686.5,"(5e+04,2e+05]",35611,1187.03
+Tortosa,Tarragona,33473.25,"(1e+04,5e+04]",32438,924.55
+Valls,Tarragona,24386.25,"(1e+04,5e+04]",34234,1139
+El Vendrell,Tarragona,38005.75,"(1e+04,5e+04]",30321,1215.64
+Vila-seca,Tarragona,22342.75,"(1e+04,5e+04]",31175,1329.14
+Salou,Tarragona,27822.25,"(1e+04,5e+04]",27986,1466.97
+Teruel,Teruel,35953.75,"(1e+04,5e+04]",34938,806.48
+Illescas,Toledo,28894,"(1e+04,5e+04]",32755,898.39
+Talavera de la Reina,Toledo,83391.5,"(5e+04,2e+05]",26881,722.15
+Toledo,Toledo,85103.75,"(5e+04,2e+05]",37841,1023.17
+Alaquàs,Valencia/València,29565.5,"(1e+04,5e+04]",27549,684.07
+Alboraia/Alboraya,Valencia/València,24580.25,"(1e+04,5e+04]",37856,732.33
+Alzira,Valencia/València,44637,"(1e+04,5e+04]",30007,908.96
+Aldaia,Valencia/València,31968.25,"(1e+04,5e+04]",28185,768.28
+Alfafar,Valencia/València,21115.75,"(1e+04,5e+04]",25943,875.2
+Algemesí,Valencia/València,27337.75,"(1e+04,5e+04]",29023,748.11
+Bétera,Valencia/València,24174.33,"(1e+04,5e+04]",41252,797.54
+Burjassot,Valencia/València,38238,"(1e+04,5e+04]",27372,593.55
+Carcaixent,Valencia/València,20428,"(1e+04,5e+04]",27927,900.18
+Catarroja,Valencia/València,28266,"(1e+04,5e+04]",30262,673.15
+Quart de Poblet,Valencia/València,24848.25,"(1e+04,5e+04]",27655,1067.07
+Cullera,Valencia/València,22323,"(1e+04,5e+04]",26477,1466.7
+Xirivella,Valencia/València,29784,"(1e+04,5e+04]",27053,577.97
+Gandia,Valencia/València,75039.75,"(5e+04,2e+05]",27777,1029.04
+Xàtiva,Valencia/València,29339.5,"(1e+04,5e+04]",29888,938.51
+Llíria,Valencia/València,23338.75,"(1e+04,5e+04]",28635,881.56
+Manises,Valencia/València,31034.75,"(1e+04,5e+04]",27863,820.63
+Mislata,Valencia/València,43902.25,"(1e+04,5e+04]",29337,650.11
+Moncada,Valencia/València,21908.25,"(1e+04,5e+04]",30490,598.23
+Oliva,Valencia/València,25160.75,"(1e+04,5e+04]",26850,933.06
+Ontinyent,Valencia/València,35612.25,"(1e+04,5e+04]",28632,816.79
+Paiporta,Valencia/València,25970.33,"(1e+04,5e+04]",29542,657.95
+Paterna,Valencia/València,70436.75,"(5e+04,2e+05]",32690,777.95
+Picassent,Valencia/València,21100.25,"(1e+04,5e+04]",30162,803.12
+la Pobla de Vallbona,Valencia/València,24658.5,"(1e+04,5e+04]",33266,795.82
+Requena,Valencia/València,20280.25,"(1e+04,5e+04]",27654,674.64
+Riba-roja de Túria,Valencia/València,22454,"(1e+04,5e+04]",34916,1388.13
+Sagunto/Sagunt,Valencia/València,66628.33,"(5e+04,2e+05]",29925,995.98
+Sueca,Valencia/València,27530.5,"(1e+04,5e+04]",28532,977.38
+Torrent,Valencia/València,82860,"(5e+04,2e+05]",30123,658.65
+València,Valencia/València,793915,"(2e+05,Inf]",34367,972.23
+Arroyo de la Encomienda,Valladolid,20266,"(1e+04,5e+04]",37273,785.89
+Laguna de Duero,Valladolid,22692,"(1e+04,5e+04]",34607,702.08
+Medina del Campo,Valladolid,20463,"(1e+04,5e+04]",27023,801.16
+Valladolid,Valladolid,298579.5,"(2e+05,Inf]",33294,871.83
+Barakaldo,Bizkaia,100927.25,"(5e+04,2e+05]",32272,1171.83
+Basauri,Bizkaia,40683.25,"(1e+04,5e+04]",31422,1331.34
+Bilbao,Bizkaia,347313.25,"(2e+05,Inf]",37156,1611.55
+Durango,Bizkaia,29791,"(1e+04,5e+04]",42436,1092.42
+Galdakao,Bizkaia,29361.25,"(1e+04,5e+04]",38825,1089.12
+Getxo,Bizkaia,77997.33,"(5e+04,2e+05]",51647,1327.91
+Leioa,Bizkaia,31767.67,"(1e+04,5e+04]",41012,1130.74
+Portugalete,Bizkaia,45796,"(1e+04,5e+04]",33214,982.02
+Santurtzi,Bizkaia,45905.67,"(1e+04,5e+04]",32491,1231.67
+Sestao,Bizkaia,27383.75,"(1e+04,5e+04]",28715,1335.1
+Erandio,Bizkaia,24286,"(1e+04,5e+04]",32188,1513.34
+Zamora,Zamora,61129.5,"(5e+04,2e+05]",28936,877.85
+Calatayud,Zaragoza,20005.25,"(1e+04,5e+04]",29802,1034.24
+Zaragoza,Zaragoza,674763.75,"(2e+05,Inf]",34753,1002.14

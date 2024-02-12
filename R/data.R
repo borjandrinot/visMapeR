@@ -76,3 +76,16 @@
 #' data(covid_ccaa)
 "covid_ccaa"
 
+
+
+#' Gasto por habitante y renta del municipio en municipios de más de 20.000 habitantes
+#'
+#' @format Un data frame con 409 filas y 6 columnas.
+#' \describe{
+#' }
+#' @source Elaboración propia
+#'
+#' @examples
+#' data(gasto_renta_munis)
+"gasto_renta_munis"
+
