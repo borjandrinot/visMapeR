@@ -112,3 +112,27 @@
 #' data(mtcars_to_plot)
 "mtcars_to_plot"
 
+#' Resultados del BNG y el PSOE en formato wide
+#'
+#' @format Un data frame con 12 filas y 2 columnas.
+#' \describe{
+#' }
+#' @source Xunta de Galicia
+#'
+#' @examples
+#' data(galicia_psoe_bng_wide)
+"galicia_psoe_bng_wide"
+
+
+#' Resultados del BNG y el PSOE en formato long
+#'
+#' @format Un data frame con 24 filas y 2 columnas.
+#' \describe{
+#' }
+#' @source Xunta de Galicia
+#'
+#' @examples
+#' data(galicia_psoe_bng_long)
+"galicia_psoe_bng_long"
+
+

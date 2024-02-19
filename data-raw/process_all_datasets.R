@@ -1,7 +1,7 @@
 
 library(tidyverse)
 library(usethis)
-library()
+library(googlesheets4)
 
 galicia_20_munis <-
   read_csv("data-raw/elecciones_gallegas/historic_elecciones_galicia.csv") |>
@@ -76,6 +76,19 @@ mtcars_to_plot <-
 
 usethis::use_data(mtcars_to_plot, overwrite = T)
 
+galicia_psoe_bng_wide <-
+  read_sheet("16olNluEckv-nVM-p8sIITZkLJ6qhkT3NCp-KtN0iYvw",
+             sheet = "izquierdas")
 
+usethis::use_data(galicia_psoe_bng_wide, overwrite = T)
+
+galicia_psoe_bng_long <-
+  read_sheet("16olNluEckv-nVM-p8sIITZkLJ6qhkT3NCp-KtN0iYvw",
+             sheet = "izquierdas") |>
+  pivot_longer(BNG:PSOE,
+               names_to = "partido",
+               values_to = "perc_votos")
+
+usethis::use_data(galicia_psoe_bng_long, overwrite = T)
 
 
