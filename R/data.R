@@ -136,3 +136,85 @@
 "galicia_psoe_bng_long"
 
 
+#' Datos horarios de contaminación en la ciudad de Madrid
+#'
+#' @format Un data frame con 4.005 filas y 56 columnas.
+#' \describe{
+#' }
+#' @source Ayuntamiento de Madrid
+#'
+#' @examples
+#' data(contaminacion_madrid)
+"contaminacion_madrid"
+
+
+#' Datos con intervenciones de bomberos en la ciudad de Madrid
+#'
+#' @format Un data frame con 1.848 filas y 6 columnas.
+#' \describe{
+#' }
+#' @source Ayuntamiento de Madrid
+#'
+#' @examples
+#' data(data_bomberos_long)
+"data_bomberos_long"
+
+#' Datos con intervenciones de bomberos en la ciudad de Madrid (total)
+#'
+#' @format Un data frame con 7 filas y 3 columnas.
+#' \describe{
+#' }
+#' @source Ayuntamiento de Madrid
+#'
+#' @examples
+#' data(data_bomberos_all)
+"data_bomberos_all"
+
+
+#' Datos con intervenciones de bomberos en la ciudad de Madrid (mensuales)
+#'
+#' @format Un data frame con 83 filas y 3 columnas.
+#' \describe{
+#' }
+#' @source Ayuntamiento de Madrid
+#'
+#' @examples
+#' data(data_bomberos_monthly)
+"data_bomberos_monthly"
+
+#' Resultados totales en las elecciones de Galicia de 2024
+#'
+#' @format Un data frame con 6 filas y 3 columnas.
+#' \describe{
+#' }
+#' @source Xunta de Galicia
+#'
+#' @examples
+#' data(galicia_total_2024)
+"galicia_total_2024"
+
+
+#' Resultados totales en las elecciones de Galicia en todas las legislaturas
+#'
+#' @format Un data frame con 52 filas y 3 columnas.
+#' \describe{
+#' }
+#' @source Wikipedia
+#'
+#' @examples
+#' data(galicia_evol)
+"galicia_evol"
+
+
+#' Resultados de cada partido en cada tipo de municipio
+#'
+#' @format Un data frame con 19 filas y 8 columnas.
+#' \describe{
+#' }
+#' @source Wikipedia
+#'
+#' @examples
+#' data(galicia_24_tam_censo)
+"galicia_24_tam_censo"
+
+

@@ -2,6 +2,7 @@
 library(tidyverse)
 library(usethis)
 library(googlesheets4)
+library(janitor)
 
 galicia_20_munis <-
   read_csv("data-raw/elecciones_gallegas/historic_elecciones_galicia.csv") |>
@@ -9,6 +10,56 @@ galicia_20_munis <-
 
 usethis::use_data(galicia_20_munis, overwrite = T)
 
+galicia_24_munis <-
+  read_csv("data-raw/elecciones_gallegas/datos_munis_2024.csv") |>
+  select(-perc_escrutado, -codigo_candidatura, -orden)
+
+usethis::use_data(galicia_24_munis, overwrite = T)
+
+
+galicia_24_tam_censo_all <-
+  galicia_24_munis |>
+  distinct(codigo_mun, .keep_all = T) |>
+  mutate(tipo_mun = cut(censo,
+                        breaks = c(0, 5000, 25000, 50000, Inf),
+                        labels = c("0-5.000", "5.000-25.000",
+                                   "25.000-50.000", ">50.000"))) |>
+  group_by(tipo_mun) |>
+  summarise(across(c(censo, blancos, nulos, candidaturas),
+                   \(x) sum(x, na.rm = T)),
+            .groups = "drop")
+
+
+galicia_24_tam_censo_partidos <-
+  galicia_24_munis |>
+  mutate(partido = fct_other(partido,
+                             keep = c("PP", "BNG", "PSOE", "DO"),
+                             other_level = "Otros"),
+           tipo_mun = cut(censo,
+                        breaks = c(0, 5000, 25000, 50000, Inf),
+                        labels = c("0-5.000", "5.000-25.000",
+                                   "25.000-50.000", ">50.000"))) |>
+  group_by(tipo_mun, partido) |>
+  summarise(votos = sum(votos, na.rm = T),
+            .groups = "drop")
+
+galicia_24_tam_censo <-
+  galicia_24_tam_censo_all |>
+  left_join(galicia_24_tam_censo_partidos) |>
+  mutate(perc_votos = round(100 * votos / (candidaturas + blancos), 2))
+
+usethis::use_data(galicia_24_tam_censo, overwrite = T)
+
+galicia_evol <-
+  read_csv("data-raw/elecciones_gallegas/evol_historica.csv")
+
+usethis::use_data(galicia_evol, overwrite = T)
+
+galicia_total_2024 <-
+  galicia_evol |>
+  filter(election == 2024)
+
+usethis::use_data(galicia_total_2024, overwrite = T)
 
 galicia_20_pp_menos_20k <-
   read_csv("data-raw/elecciones_gallegas/historic_elecciones_galicia.csv") |>
@@ -91,4 +142,41 @@ galicia_psoe_bng_long <-
 
 usethis::use_data(galicia_psoe_bng_long, overwrite = T)
 
+contaminacion_madrid <-
+  read_csv2("data-raw/ene_mo24.csv")
+
+usethis::use_data(contaminacion_madrid, overwrite = T)
+
+
+data_bomberos_long <-
+  read_csv2("https://datos.madrid.es/egobfiles/MANUAL/300177/ActuacionesBomberos_2023.csv") |>
+  clean_names() |>
+  mutate(mes = fct_relevel(mes,
+                           "enero", "febrero", "marzo",
+                           "abril", "mayo", "junio", "julio",
+                           "agosto", "septiembre", "octubre",
+                           "noviembre", "diciembre"),
+         date = ym(str_glue("{ano}-{as.numeric(mes)}"))) |>
+  select(date, ano, mes, distrito, fuegos:servicios_varios) |>
+  pivot_longer(fuegos:servicios_varios,
+               names_to = "tipo_salida",
+               values_to = "salidas")
+
+usethis::use_data(data_bomberos_long, overwrite = T)
+
+data_bomberos_all <-
+  data_bomberos_long |>
+  group_by(ano, tipo_salida) |>
+  summarise(salidas = sum(salidas, na.rm = T),
+            .groups = "drop")
+
+usethis::use_data(data_bomberos_all, overwrite = T)
+
+data_bomberos_monthly <-
+  data_bomberos_long |>
+  group_by(date, tipo_salida) |>
+  summarise(salidas = sum(salidas, na.rm = T),
+            .groups = "drop")
+
+usethis::use_data(data_bomberos_monthly, overwrite = T)
 
