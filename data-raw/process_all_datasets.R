@@ -198,7 +198,6 @@ edades_m <-
 
 
 edades <- bind_rows(edades_h, edades_m)
-
 usethis::use_data(edades, overwrite = T)
 
 provs_ine <-
