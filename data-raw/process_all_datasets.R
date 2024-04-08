@@ -3,6 +3,7 @@ library(tidyverse)
 library(usethis)
 library(googlesheets4)
 library(janitor)
+library(readxl)
 
 galicia_20_munis <-
   read_csv("data-raw/elecciones_gallegas/historic_elecciones_galicia.csv") |>
@@ -35,7 +36,7 @@ galicia_24_tam_censo_partidos <-
   mutate(partido = fct_other(partido,
                              keep = c("PP", "BNG", "PSOE", "DO"),
                              other_level = "Otros"),
-           tipo_mun = cut(censo,
+         tipo_mun = cut(censo,
                         breaks = c(0, 5000, 25000, 50000, Inf),
                         labels = c("0-5.000", "5.000-25.000",
                                    "25.000-50.000", ">50.000"))) |>
@@ -64,8 +65,8 @@ usethis::use_data(galicia_total_2024, overwrite = T)
 galicia_20_pp_menos_20k <-
   read_csv("data-raw/elecciones_gallegas/historic_elecciones_galicia.csv") |>
   filter(election == 2020,
-  partido == "PP",
-  censo < 20000)
+         partido == "PP",
+         censo < 20000)
 
 usethis::use_data(galicia_20_pp_menos_20k, overwrite = T)
 
@@ -118,11 +119,11 @@ gasto_renta_munis <-
 usethis::use_data(gasto_renta_munis, overwrite = T)
 
 mtcars_to_plot <-
-  mtcars %>%
-  rownames_to_column(var = "car_model") %>%
-  slice_sample(n = 9) %>%
-  pivot_longer(cols = -car_model) %>%
-  group_by(name) %>%
+  mtcars |>
+  rownames_to_column(var = "car_model") |>
+  slice_sample(n = 9) |>
+  pivot_longer(cols = -car_model) |>
+  group_by(name) |>
   mutate(value_norm = value / max(value))
 
 usethis::use_data(mtcars_to_plot, overwrite = T)
@@ -179,4 +180,35 @@ data_bomberos_monthly <-
             .groups = "drop")
 
 usethis::use_data(data_bomberos_monthly, overwrite = T)
+
+edades_h <-
+  read_excel("data-raw/nombres/nombres_por_edad_media.xls",
+             sheet = "Hombres",
+             skip = 6) |>
+  clean_names() |>
+  mutate(genero = "H")
+
+
+edades_m <-
+  read_excel("data-raw/nombres/nombres_por_edad_media.xls",
+             sheet = "Mujeres",
+             skip = 6) |>
+  clean_names() |>
+  mutate(genero = "M")
+
+
+edades <- bind_rows(edades_h, edades_m)
+
+usethis::use_data(edades, overwrite = T)
+
+provs_ine <-
+  read_csv("data-raw/provincias_ine.csv")
+
+cod_municipios_ine <-
+  read_excel("data-raw/cod_municipios_ine.xlsx", skip = 1) |>
+  left_join(provs_ine)
+
+usethis::use_data(cod_municipios_ine, overwrite = T)
+
+
 
