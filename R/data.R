@@ -217,4 +217,37 @@
 #' data(galicia_24_tam_censo)
 "galicia_24_tam_censo"
 
+#' Resultados de cada partido en cada municipio en Galicia
+#'
+#' @format Un data frame con 3212 filas y 11 columnas.
+#' \describe{
+#' }
+#' @source Wikipedia
+#'
+#' @examples
+#' data(galicia_24_munis)
+"galicia_24_munis"
 
+
+#' Datos de edad media por nombre en España
+#'
+#' @format Un data frame con 54.364 filas y 5 columnas.
+#' \describe{
+#' }
+#' @source INE
+#'
+#' @examples
+#' data(edades)
+"edades"
+
+
+#' Diccionario municipios del INE
+#'
+#' @format Un data frame con 8.121 filas y 7 columnas.
+#' \describe{
+#' }
+#' @source INE
+#'
+#' @examples
+#' data(cod_municipios_ine)
+"cod_municipios_ine"
