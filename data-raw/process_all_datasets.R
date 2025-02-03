@@ -214,5 +214,9 @@ contaminacion_madrid_2022 <-
 
 usethis::use_data(contaminacion_madrid_2022, overwrite = T)
 
+embalses <- read_csv("data-raw/data_embalses.csv") |>
+  select(cuenca = ambito_nombre, fecha, ocupacion = this_year)
+
+usethis::use_data(embalses, overwrite = T)
 
 
