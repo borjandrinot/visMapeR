@@ -7,6 +7,17 @@
 \format{
 Un data frame con 3212 filas y 11 columnas.
 \describe{
+\item{codigo_mun}{Código INE del municipio}
+\item{municipio}{Nombre del municipio}
+\item{provincia}{Provincia}
+\item{censo}{Número de personas con derecho a voto}
+\item{blancos}{Votos en blanco}
+\item{nulos}{Votos nulos}
+\item{candidaturas}{Votos válidos a candidaturas}
+\item{partido}{Partido político}
+\item{votos}{Número de votos obtenidos}
+\item{porcentaje}{Porcentaje de votos sobre votos válidos}
+\item{participacion}{Porcentaje de participación}
 }
 }
 \source{
@@ -16,7 +27,9 @@ Wikipedia
 galicia_24_munis
 }
 \description{
-Resultados de cada partido en cada municipio en Galicia
+(Documentación generada por Claude)
+Resultados detallados de las elecciones gallegas de 2024 a nivel municipal,
+incluyendo datos de participación y resultados por partido.
 }
 \examples{
 data(galicia_24_munis)

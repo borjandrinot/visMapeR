@@ -7,6 +7,9 @@
 \format{
 Un data frame con 57 filas y 3 columnas.
 \describe{
+\item{election}{Año de la elección}
+\item{partido}{Partido político}
+\item{votos}{Número de votos obtenidos}
 }
 }
 \source{
@@ -16,7 +19,8 @@ Instituto Galego de Estadística
 historic_totales_galicia
 }
 \description{
-Resultados totales de las elecciones gallegas desde 1981
+Serie histórica de resultados electorales en las elecciones autonómicas de Galicia
+desde 1981 hasta la actualidad.
 }
 \examples{
 data(historic_totales_galicia)

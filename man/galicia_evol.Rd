@@ -7,6 +7,9 @@
 \format{
 Un data frame con 52 filas y 3 columnas.
 \describe{
+\item{election}{Año de la elección}
+\item{partido}{Partido político}
+\item{votos}{Número de votos obtenidos}
 }
 }
 \source{
@@ -16,7 +19,10 @@ Wikipedia
 galicia_evol
 }
 \description{
-Resultados totales en las elecciones de Galicia en todas las legislaturas
+(Documentación generada por Claude)
+Serie histórica completa de resultados electorales en todas las elecciones
+autonómicas gallegas, permitiendo analizar la evolución del voto desde
+el inicio de la autonomía hasta 2024.
 }
 \examples{
 data(galicia_evol)

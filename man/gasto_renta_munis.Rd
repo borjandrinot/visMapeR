@@ -7,6 +7,12 @@
 \format{
 Un data frame con 409 filas y 6 columnas.
 \describe{
+\item{municipio}{Nombre del municipio}
+\item{provincia}{Provincia a la que pertenece el municipio}
+\item{poblacion}{Número de habitantes}
+\item{renta_media}{Renta media por persona en euros}
+\item{gasto_habitante}{Gasto público por habitante en euros}
+\item{año}{Año de referencia de los datos}
 }
 }
 \source{
@@ -16,7 +22,10 @@ Elaboración propia
 gasto_renta_munis
 }
 \description{
-Gasto por habitante y renta del municipio en municipios de más de 20.000 habitantes
+(Documentación generada por Claude)
+Dataset que relaciona el gasto público municipal por habitante con el nivel de renta
+en municipios grandes, permitiendo analizar la relación entre recursos económicos
+y gasto público local.
 }
 \examples{
 data(gasto_renta_munis)

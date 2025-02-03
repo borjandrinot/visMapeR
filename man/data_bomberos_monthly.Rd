@@ -7,6 +7,9 @@
 \format{
 Un data frame con 83 filas y 3 columnas.
 \describe{
+\item{date}{Fecha (YYYY-MM)}
+\item{tipo_salida}{Categoría de la intervención}
+\item{salidas}{Número de intervenciones en el mes}
 }
 }
 \source{
@@ -16,7 +19,8 @@ Ayuntamiento de Madrid
 data_bomberos_monthly
 }
 \description{
-Datos con intervenciones de bomberos en la ciudad de Madrid (mensuales)
+(Documentación generada por Claude)
+Serie temporal mensual de intervenciones de bomberos por tipo de salida.
 }
 \examples{
 data(data_bomberos_monthly)

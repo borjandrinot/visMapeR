@@ -209,5 +209,10 @@ cod_municipios_ine <-
 
 usethis::use_data(cod_municipios_ine, overwrite = T)
 
+contaminacion_madrid_2022 <-
+  read_csv2("data-raw/contaminacion_datos22.csv")
+
+usethis::use_data(contaminacion_madrid_2022, overwrite = T)
+
 
 

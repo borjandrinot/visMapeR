@@ -7,6 +7,8 @@
 \format{
 Un data frame con 12 filas y 2 columnas.
 \describe{
+\item{BNG}{Porcentaje de votos obtenido por el BNG}
+\item{PSOE}{Porcentaje de votos obtenido por el PSOE}
 }
 }
 \source{
@@ -16,7 +18,9 @@ Xunta de Galicia
 galicia_psoe_bng_wide
 }
 \description{
-Resultados del BNG y el PSOE en formato wide
+(Documentación generada por Claude)
+Evolución histórica de los resultados electorales de BNG y PSOE en Galicia,
+presentada en formato ancho (una columna por partido).
 }
 \examples{
 data(galicia_psoe_bng_wide)

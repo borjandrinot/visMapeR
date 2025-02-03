@@ -7,6 +7,8 @@
 \format{
 Un data frame con 24 filas y 2 columnas.
 \describe{
+\item{partido}{Partido político (BNG o PSOE)}
+\item{perc_votos}{Porcentaje de votos obtenido}
 }
 }
 \source{
@@ -16,7 +18,9 @@ Xunta de Galicia
 galicia_psoe_bng_long
 }
 \description{
-Resultados del BNG y el PSOE en formato long
+(Documentación generada por Claude)
+Los mismos datos que galicia_psoe_bng_wide pero en formato largo,
+facilitando su uso con ggplot2 y otras herramientas de visualización.
 }
 \examples{
 data(galicia_psoe_bng_long)

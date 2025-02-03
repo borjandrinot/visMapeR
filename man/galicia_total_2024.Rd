@@ -7,6 +7,9 @@
 \format{
 Un data frame con 6 filas y 3 columnas.
 \describe{
+\item{election}{Año de la elección (2024)}
+\item{partido}{Partido político (PP, BNG, PSOE, DO, etc.)}
+\item{votos}{Número total de votos obtenidos}
 }
 }
 \source{
@@ -16,7 +19,9 @@ Xunta de Galicia
 galicia_total_2024
 }
 \description{
-Resultados totales en las elecciones de Galicia de 2024
+(Documentación generada por Claude)
+Resultados globales de las elecciones autonómicas gallegas de 2024, mostrando
+el número total de votos obtenido por cada partido político.
 }
 \examples{
 data(galicia_total_2024)

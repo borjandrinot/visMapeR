@@ -7,6 +7,13 @@
 \format{
 Un data frame con 8.121 filas y 7 columnas.
 \describe{
+\item{CODMUN}{Código INE del municipio}
+\item{NOMBRE}{Nombre oficial del municipio}
+\item{CPRO}{Código de la provincia}
+\item{PROVINCIA}{Nombre de la provincia}
+\item{CCAA}{Nombre de la comunidad autónoma}
+\item{CMUN}{Código municipal dentro de la provincia}
+\item{CAPITAL}{Indicador de si es capital de provincia (1) o no (0)}
 }
 }
 \source{
@@ -16,7 +23,9 @@ INE
 cod_municipios_ine
 }
 \description{
-Diccionario municipios del INE
+(Documentación generada por Claude)
+Tabla de referencia que contiene los códigos oficiales y nombres de todos
+los municipios de España según el Instituto Nacional de Estadística.
 }
 \examples{
 data(cod_municipios_ine)

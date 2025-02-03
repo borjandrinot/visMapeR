@@ -7,6 +7,10 @@
 \format{
 Un data frame con 14.308 filas y 4 columnas.
 \describe{
+\item{fecha}{Fecha de la observación}
+\item{ccaa}{Nombre de la comunidad autónoma}
+\item{casos_acum}{Casos acumulados totales desde el inicio de la pandemia}
+\item{incidencia_14d}{Incidencia acumulada a 14 días por 100.000 habitantes}
 }
 }
 \source{
@@ -16,7 +20,9 @@ Ministerio de Sanidad y EL PAÍS
 covid_ccaa
 }
 \description{
-Contagios acumulados e incidencia a 14 días por 100.000 habitantes en cada comunidad autónoma
+(Documentación generada por Claude)
+Serie temporal completa de datos COVID-19 para todas las comunidades autónomas de España,
+permitiendo comparar la evolución de la pandemia entre territorios.
 }
 \examples{
 data(covid_ccaa)

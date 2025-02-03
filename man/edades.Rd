@@ -7,6 +7,11 @@
 \format{
 Un data frame con 54.364 filas y 5 columnas.
 \describe{
+\item{nombre}{Nombre de pila}
+\item{edad_media}{Edad media de las personas con ese nombre}
+\item{frecuencia}{Número de personas con ese nombre}
+\item{ano}{Año de referencia de los datos}
+\item{genero}{Género (H: Hombre, M: Mujer)}
 }
 }
 \source{
@@ -16,7 +21,10 @@ INE
 edades
 }
 \description{
-Datos de edad media por nombre en España
+(Documentación generada por Claude)
+Dataset que contiene información sobre la edad media de las personas según
+su nombre de pila y género en España, permitiendo analizar tendencias
+generacionales en la elección de nombres.
 }
 \examples{
 data(edades)

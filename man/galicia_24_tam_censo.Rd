@@ -7,6 +7,14 @@
 \format{
 Un data frame con 19 filas y 8 columnas.
 \describe{
+\item{tipo_mun}{Categoría de tamaño del municipio (0-5.000, 5.000-25.000, etc.)}
+\item{censo}{Número total de electores en esa categoría}
+\item{blancos}{Votos en blanco}
+\item{nulos}{Votos nulos}
+\item{candidaturas}{Votos válidos a candidaturas}
+\item{partido}{Partido político}
+\item{votos}{Número de votos obtenidos}
+\item{perc_votos}{Porcentaje de votos sobre votos válidos}
 }
 }
 \source{
@@ -16,7 +24,10 @@ Wikipedia
 galicia_24_tam_censo
 }
 \description{
-Resultados de cada partido en cada tipo de municipio
+(Documentación generada por Claude)
+Análisis de los resultados de las elecciones gallegas de 2024 segmentados por
+tamaño del municipio, permitiendo comparar el comportamiento electoral según
+el tamaño de la población.
 }
 \examples{
 data(galicia_24_tam_censo)

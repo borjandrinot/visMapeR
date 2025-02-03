@@ -7,6 +7,12 @@
 \format{
 Un data frame con 1.848 filas y 6 columnas.
 \describe{
+\item{date}{Fecha de la intervención (YYYY-MM)}
+\item{ano}{Año de la intervención}
+\item{mes}{Mes de la intervención}
+\item{distrito}{Distrito de Madrid donde se realizó la intervención}
+\item{tipo_salida}{Categoría de la intervención (fuegos, salvamentos, etc.)}
+\item{salidas}{Número de intervenciones realizadas}
 }
 }
 \source{
@@ -16,7 +22,9 @@ Ayuntamiento de Madrid
 data_bomberos_long
 }
 \description{
-Datos con intervenciones de bomberos en la ciudad de Madrid
+(Documentación generada por Claude)
+Registro detallado de las intervenciones del cuerpo de bomberos de Madrid,
+clasificadas por tipo, distrito y fecha.
 }
 \examples{
 data(data_bomberos_long)

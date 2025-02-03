@@ -7,16 +7,22 @@
 \format{
 Un data frame con 99 filas y 4 columnas.
 \describe{
+\item{car_model}{Nombre del modelo de coche}
+\item{name}{Variable medida (mpg, cyl, disp, etc.)}
+\item{value}{Valor original de la medición}
+\item{value_norm}{Valor normalizado (dividido por el máximo de cada variable)}
 }
 }
 \source{
-Elaboración propia
+Elaboración propia basada en el dataset mtcars de R
 }
 \usage{
 mtcars_to_plot
 }
 \description{
-Estadísticas de 9 modelos de coche diferentes
+(Documentación generada por Claude)
+Muestra aleatoria de 9 modelos del dataset clásico mtcars, transformada a formato
+largo y con valores normalizados para facilitar visualizaciones.
 }
 \examples{
 data(mtcars_to_plot)

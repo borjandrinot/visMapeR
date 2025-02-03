@@ -7,6 +7,11 @@
 \format{
 Un data frame con 179 filas y 5 columnas.
 \describe{
+\item{municipio}{Nombre del municipio}
+\item{codigo_mun}{Código INE del municipio}
+\item{poblacion}{Población total del municipio}
+\item{renta}{Renta media por persona en euros}
+\item{año}{Año de referencia de los datos}
 }
 }
 \source{
@@ -16,7 +21,7 @@ Instituto Nacional de Estadística
 renta_munis_madrid
 }
 \description{
-Renta media por persona en los municipios de la Comunidad de Madrid
+Datos de renta media por persona a nivel municipal en la Comunidad de Madrid.
 }
 \examples{
 data(renta_munis_madrid)

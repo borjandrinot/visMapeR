@@ -7,6 +7,11 @@
 \format{
 Un data frame con 4.005 filas y 56 columnas.
 \describe{
+\item{FECHA}{Fecha y hora de la medición}
+\item{ESTACION}{Código de la estación de medición}
+\item{MAGNITUD}{Tipo de contaminante medido}
+\item{H01-H24}{Mediciones horarias (una columna por hora del día)}
+\item{V01-V24}{Códigos de validación de las mediciones}
 }
 }
 \source{
@@ -16,7 +21,9 @@ Ayuntamiento de Madrid
 contaminacion_madrid
 }
 \description{
-Datos horarios de contaminación en la ciudad de Madrid
+(Documentación generada por Claude)
+Mediciones horarias de diferentes contaminantes atmosféricos en las estaciones
+de medición de la ciudad de Madrid.
 }
 \examples{
 data(contaminacion_madrid)

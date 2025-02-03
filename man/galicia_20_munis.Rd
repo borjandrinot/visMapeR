@@ -7,6 +7,16 @@
 \format{
 Un data frame con 1.868 filas y 13 columnas.
 \describe{
+\item{election}{Año de la elección (2020)}
+\item{codigo_mun}{Código INE del municipio}
+\item{municipio}{Nombre del municipio}
+\item{provincia}{Provincia a la que pertenece el municipio}
+\item{censo}{Número de personas con derecho a voto}
+\item{partido}{Partido político}
+\item{votos}{Número de votos obtenidos}
+\item{blancos}{Votos en blanco}
+\item{nulos}{Votos nulos}
+\item{candidaturas}{Votos a candidaturas}
 }
 }
 \source{
@@ -16,7 +26,8 @@ Instituto Galego de Estadística
 galicia_20_munis
 }
 \description{
-Resultados por municipio de las elecciones de 2020 en Galicia
+Dataset que contiene los resultados electorales a nivel municipal de las elecciones
+autonómicas de Galicia en 2020.
 }
 \examples{
 data(galicia_20_munis)

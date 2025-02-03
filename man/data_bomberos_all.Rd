@@ -7,6 +7,9 @@
 \format{
 Un data frame con 7 filas y 3 columnas.
 \describe{
+\item{ano}{Año de las intervenciones}
+\item{tipo_salida}{Categoría de la intervención}
+\item{salidas}{Número total de intervenciones}
 }
 }
 \source{
@@ -16,7 +19,8 @@ Ayuntamiento de Madrid
 data_bomberos_all
 }
 \description{
-Datos con intervenciones de bomberos en la ciudad de Madrid (total)
+(Documentación generada por Claude)
+Resumen anual de intervenciones de bomberos agregadas por tipo de salida.
 }
 \examples{
 data(data_bomberos_all)

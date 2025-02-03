@@ -7,6 +7,10 @@
 \format{
 Un data frame con 753 filas y 4 columnas.
 \describe{
+\item{fecha}{Fecha de la observación}
+\item{casos_acum}{Casos acumulados totales desde el inicio de la pandemia}
+\item{casos_14d}{Casos nuevos en los últimos 14 días}
+\item{incidencia_14d}{Incidencia acumulada a 14 días por 100.000 habitantes}
 }
 }
 \source{
@@ -16,7 +20,9 @@ Ministerio de Sanidad y EL PAÍS
 covid_madrid
 }
 \description{
-Contagios acumulados e incidencia a 14 días por 100.000 habitantes de la Comunidad de Madrid
+(Documentación generada por Claude)
+Serie temporal de datos COVID-19 para la Comunidad de Madrid, que permite analizar
+la evolución de la pandemia a través de casos acumulados e incidencia.
 }
 \examples{
 data(covid_madrid)
