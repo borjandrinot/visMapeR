@@ -1,9 +1,9 @@
-
 library(tidyverse)
 library(usethis)
 library(googlesheets4)
 library(janitor)
 library(readxl)
+library(countrycode)
 
 galicia_20_munis <-
   read_csv("data-raw/elecciones_gallegas/historic_elecciones_galicia.csv") |>
@@ -100,7 +100,6 @@ historic_totales_galicia <-
   read_csv("data-raw/elecciones_gallegas/historic_totales_galicia.csv")
 
 usethis::use_data(historic_totales_galicia, overwrite = T)
-
 
 covid_madrid <-
   read_csv("data-raw/covid/covid_madrid.csv")
@@ -219,4 +218,34 @@ embalses <- read_csv("data-raw/data_embalses.csv") |>
 
 usethis::use_data(embalses, overwrite = T)
 
+temperature <-
+  read_csv("data-raw/average-monthly-surface-temperature.csv") |>
+  clean_names() |>
+  select(entity, year, day, surface = 5) |>
+  mutate(day_standard = ymd(str_glue("2000-{month(day)}-{day(day)}")))
 
+usethis::use_data(temperature, overwrite = T)
+
+data_population <-
+  read_csv("data-raw/population.csv") |>
+  clean_names() |>
+  mutate(continent = countrycode(code, origin = "iso3c", destination = "continent")) |>
+  drop_na(continent) |>
+  group_by(entity) |>
+  slice_max(year, n = 1) |>
+  ungroup() |>
+  rename(country = entity) |>
+  select(country, pop = population_historical, continent)
+
+data_gini <-
+  read_csv("data-raw/gini-coefficient.csv") |>
+  clean_names() |>
+  select(country, year, gini = 3) |>
+  drop_na(gini) |>
+  left_join(data_population) |>
+  drop_na(pop) |>
+  add_count(country) |>
+  filter(n > 30) |>
+  filter(year > 1980)
+
+usethis::use_data(data_gini, overwrite = T)

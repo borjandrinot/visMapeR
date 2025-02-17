@@ -419,3 +419,74 @@
 #' @examples
 #' data(cod_municipios_ine)
 "cod_municipios_ine"
+
+#' Datos de contaminación de Madrid en 2022
+#'
+#' (Documentación generada por Claude)
+#' Mediciones de contaminación atmosférica en las estaciones de Madrid durante 2022.
+#'
+#' @format Un data frame con mediciones horarias de contaminantes.
+#' \describe{
+#' }
+#' @source Ayuntamiento de Madrid
+#'
+#' @examples
+#' data(contaminacion_madrid_2022)
+"contaminacion_madrid_2022"
+
+#' Nivel de ocupación de embalses por cuenca hidrográfica
+#'
+#' (Documentación generada por Claude)
+#' Serie temporal del nivel de ocupación de los embalses españoles por cuenca hidrográfica.
+#'
+#' @format Un data frame con 3 columnas:
+#' \describe{
+#'   \item{cuenca}{Nombre de la cuenca hidrográfica}
+#'   \item{fecha}{Fecha de la medición}
+#'   \item{ocupacion}{Porcentaje de ocupación del embalse}
+#' }
+#' @source Ministerio para la Transición Ecológica
+#'
+#' @examples
+#' data(embalses)
+"embalses"
+
+#' Temperatura superficial mensual global
+#'
+#' (Documentación generada por Claude)
+#' Serie histórica de temperaturas superficiales medias mensuales por país.
+#'
+#' @format Un data frame con 4 columnas:
+#' \describe{
+#'   \item{entity}{País o región}
+#'   \item{year}{Año de la medición}
+#'   \item{day}{Fecha de la medición}
+#'   \item{surface}{Temperatura superficial media}
+#'   \item{day_standard}{Fecha estandarizada al año 2000}
+#' }
+#' @source Our World in Data
+#'
+#' @examples
+#' data(temperature)
+"temperature"
+
+#' Coeficiente de Gini por país
+#'
+#' (Documentación generada por Claude)
+#' Serie temporal del coeficiente de Gini (medida de desigualdad) por país,
+#' incluyendo datos de población y continente.
+#'
+#' @format Un data frame con 7 columnas:
+#' \describe{
+#'   \item{country}{Nombre del país}
+#'   \item{year}{Año de la medición}
+#'   \item{gini}{Coeficiente de Gini}
+#'   \item{pop}{Población total}
+#'   \item{continent}{Continente}
+#'   \item{n}{Número de observaciones por país}
+#' }
+#' @source Our World in Data
+#'
+#' @examples
+#' data(data_gini)
+"data_gini"
